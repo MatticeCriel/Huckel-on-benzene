@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: research-outline.aux
+The style file: aip.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: research-outline.bib
+Warning--jnrlst (dependency: not reversed) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs aipnum4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+You've used 11 entries,
+            5918 wiz_defined-function locations,
+            1696 strings with 17923 characters,
+and the built_in function-call counts, 15675 in all, are:
+= -- 739
+> -- 653
+< -- 115
++ -- 199
+- -- 176
+* -- 2754
+:= -- 1458
+add.period$ -- 12
+call.type$ -- 11
+change.case$ -- 50
+chr.to.int$ -- 17
+cite$ -- 11
+duplicate$ -- 1392
+empty$ -- 1080
+format.name$ -- 354
+if$ -- 3090
+int.to.chr$ -- 1
+int.to.str$ -- 20
+missing$ -- 173
+newline$ -- 85
+num.names$ -- 34
+pop$ -- 505
+preamble$ -- 1
+purify$ -- 55
+quote$ -- 0
+skip$ -- 474
+stack$ -- 0
+substring$ -- 248
+swap$ -- 1493
+text.length$ -- 81
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 200
+warning$ -- 1
+while$ -- 44
+width$ -- 0
+write$ -- 141
+(There was 1 warning)
