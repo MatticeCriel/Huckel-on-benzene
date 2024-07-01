@@ -1,0 +1,69 @@
+\documentclass[letterpaper, 11pt]{article}
+\usepackage[version=4]{mhchem} %To write nice chemical equations
+\usepackage{placeins}%
+\usepackage{mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2.5cm]{geometry} %Makes the margin smaller
+\usepackage[labelfont=bf, skip=5pt, font=small]{caption} %Needed for nice caption of tables and figures
+\usepackage[labelfont=bf, skip=5pt, font=small]{subcaption} %Needed for nice subcaption of tables and figures
+\usepackage[export]{adjustbox} %Needed for proper figure adjustment
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{hyperref} %To put hyperlinks in the document
+\usepackage{pgfplots} %To import pgf files/pictures
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{bookmark}
+\usepackage{pgf}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{wrapfig}
+\usepackage[numbers, super, square]{natbib}
+
+\setlength{\parindent}{0em} %Causes there not to be indentations when creating a new paragraph.
+
+\pgfplotsset{compat=1.18}
+
+\numberwithin{equation}{section}
+\numberwithin{table}{section}
+\numberwithin{figure}{section}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={play},
+    pdfpagemode=FullScreen,
+    citecolor=green,
+    }
+
+\bibliographystyle{plain}   
+
+
+\title{Report on hartree fock}
+\author{Mattice Criel }
+\date{2024}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+    $3^{th}$ Bachelor of Science in Chemistry\\
+    University of Ghent\\
+    Academic Year 2023-2024
+\end{center}
+
+\section{Introduction}
+In this report a brief overview will be given of how the Hartree Fock theory is developed and what it is used for in solving the energy of a molecular system.
+
+\section{Born-Oppenheimer approximation}
+\subsection{The molecular Hamiltonian}
+\begin{equation}
+    \begin{split}
+        \hat{H} = & \sum_{i=1}^{N} \left( -\frac{\hbar^2}{2m_e} \hat{\nabla_i^2} + \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1 \atop j \neq i}^{N} \frac{e^2}{4\pi\epsilon_0|\mathbf{r}_i - \mathbf{r}_j|} \right) \\
+        & + \sum_{A=1}^{M} \left( -\frac{\hbar^2}{2M_A} \nabla_A^2 + \frac{1}{2} \sum_{A=1}^{M} \sum_{B=1 \atop B \neq A}^{M} \frac{Z_A Z_B e^2}{4\pi\epsilon_0|\mathbf{R}_A - \mathbf{R}_B|} \right) \\
+        & - \sum_{i=1}^{N} \sum_{A=1}^{M} \frac{Z_A e^2}{4\pi\epsilon_0|\mathbf{r}_i - \mathbf{R}_A|}
+    \end{split}
+    \end{equation}
+    
+\end{document}
